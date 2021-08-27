@@ -9,20 +9,12 @@ instance:
   hostname: localhost
 
 
-microservice:
-  payment-service:
-    endpoints:
-      endpoint:
-        uri: http://PAYMENT-SERVICE/payment/doPayment
+
  microservice:
   order-service:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/placeOrder
- microservice:
-  client-product:
-    endpoints:
-      endpoint:
-        uri: http://CLIENT-2/product/getProduct
+
     
    
